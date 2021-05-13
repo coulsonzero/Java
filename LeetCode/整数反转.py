@@ -1,4 +1,9 @@
-# 字符串反转方法
+'''
+字符串反转方法：
+S[::-1]  最快
+''.join(S.reverse())
+''.join(reversed(S))
+'''
 
 class Solution:
     def reverse(self, x: int) -> int:
