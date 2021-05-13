@@ -1,3 +1,13 @@
+/**
+输入：strs = ["flower","flow","flight"]
+输出："fl"
+
+输入：strs = ["dog","racecar","car"]
+输出：""
+解释：输入不存在公共前缀
+*/
+
+
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs.length == 0){
