@@ -1,5 +1,7 @@
 '''
 正则表达式提取字符串
+^[\+\-]?: 匹配除"+"或"-"之外的"?"之前的任意字符
+\d+: 匹配数字
 '''
 class Solution:
     def myAtoi(self, s: str) -> int:
