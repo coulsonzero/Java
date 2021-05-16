@@ -5,8 +5,9 @@
 
 `Output: 101010`
 * * *
+
 ### Code
-**Main.java**
+**Main.class**
 ```java
 import java.util.Scanner;
 
@@ -18,7 +19,7 @@ public class Main {
     }
 }
 ```
-**Converter.java**
+**Converter.class**
 ```java
 public class Converter {
     static String binary = "";
