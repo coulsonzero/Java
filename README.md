@@ -7,7 +7,7 @@
 
 ### 代码块
 ```java
-package test
+package test;
 
 public static void main(String[] args) {
     ...
