@@ -7,10 +7,11 @@
 
 ### 代码块
 ```java
-package test;
-
-public static void main(String[] args) {
-    ...
+package JavaCode;
+public class MyClass {
+    public static void main(String[] args) {
+        ...
+    }
 }
 ```
 
