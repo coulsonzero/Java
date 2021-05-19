@@ -13,7 +13,8 @@ public class MyClass {
     }
 }
 ```
-![.](https://github.com/coulsonzero/JavaCode/blob/main/images/ArrayFind.gif)
+#### 图片
+![images](https://github.com/coulsonzero/JavaCode/blob/main/images/ArrayFind.gif)
 
 
 #### 项目列表
