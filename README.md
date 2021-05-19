@@ -14,8 +14,8 @@ public class MyClass {
 }
 ```
 #### 图片
-![images](https://github.com/coulsonzero/JavaCode/blob/main/images/ArrayFind.gif)
-![img](https://github.com/coulsonzero/JavaCode/blob/main/images/ArrayInsert.gif)
+![](url)
+![ArrayInsert](https://github.com/coulsonzero/JavaCode/blob/main/images/ArrayInsert.gif)
 
 
 #### 项目列表
