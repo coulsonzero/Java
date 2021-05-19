@@ -13,7 +13,7 @@ public class MyClass {
     }
 }
 ```
-#### 图片
+#### 图片 <img src="https://github.com/coulsonzero/JavaCode/blob/main/images/ArrayFind.gif" width="300px">
 ![](url)
 ![ArrayInsert](https://github.com/coulsonzero/JavaCode/blob/main/images/ArrayInsert.gif)
 
