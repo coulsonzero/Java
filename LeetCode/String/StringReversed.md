@@ -69,3 +69,5 @@ public class Main{
     }
 }
 ```
+`运行时间：10ms`
+`占用内存：9224KB`
