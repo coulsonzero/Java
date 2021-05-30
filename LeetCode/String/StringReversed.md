@@ -1,9 +1,19 @@
 
 接受一个只包含小写字母的字符串，然后输出该字符串反转后的字符串
+```
 输入描述：
 输入一行，为一个只包含小写字母的字符串。
 输出描述：
 输出该字符串反转后的字符串。
+```
+输入：`BufferedReader(new InputStreamReader(System.in))`  
+```java
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+while((str=br.readLine())!=null){
+    ...
+}
+```
+***
 ```java
 import java.io.*;
 public class Main {
