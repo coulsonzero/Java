@@ -43,3 +43,29 @@ public class Main {
 ```
 `运行时间：26ms`
 `占用内存：10520KB`
+***
+```
+输入：I am a boy
+输出：boy a am I
+```
+```java
+import java.io.*;
+
+public class Main{
+    public static void main(String[] args) throws Exception{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String str = null;
+        while((str=br.readLine())!=null){
+            //1.
+            String[] s = str.split(" ");
+            StringBuilder sb = new StringBuilder();
+            //2.
+            for (int i = s.length-1; i >0 ; i--) {
+                sb.append(s[i]).append(" ");
+            }
+            sb.append(s[0]);
+            System.out.println(sb);
+        }
+    }
+}
+```
