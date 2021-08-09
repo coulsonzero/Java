@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: #000;
+        }
+        .mouth {
+            width: 256px;
+            height: 200px;
+            margin-top: 100px;
+            /*background-color: #cc33ff;*/
+            border-radius: 100px 100px 100px 100px;
+            animation: peas 1s linear infinite;
+        }
+        @keyframes peas {
+            0%{
+                box-shadow:
+                    300px 0px 0px -80px #66ccff,
+                    450px 0px 0px -80px #66ccff,
+                    600px 0px 0px -80px #66ccff,
+                    750px 0px 0px -80px #66ccff;
+            }
+            100%{
+                box-shadow:
+                    150px 0px 0px -80px #66ccff,
+                    300px 0px 0px -80px #66ccff,
+                    450px 0px 0px -80px #66ccff,
+                    600px 0px 0px -80px #66ccff;
+            }
+
+        }
+        .top, .bottom{
+            width: 200px;
+            height: 100px;
+            margin-left:150px;
+            background-color: #ffff00;
+        }
+        .top{
+            border-radius: 100px 100px 0 0;
+            animation: topmouth 1s linear infinite;
+        }
+        .bottom{
+            border-radius: 0 0 100px 100px;
+            /*tranform: rotate(30deg);*/
+            animation: bottommouth 1s linear infinite;
+        }
+        @keyframes topmouth {
+              0%{
+                  transform: rotate(0);
+              }
+              50%{
+                  transform: rotate(-30deg);
+              }
+              100%{
+                  transform: rotate(0);
+              }
+        }
+        @keyframes bottommouth {
+            0%{
+                transform: rotate(0);
+            }
+            50%{
+                transform: rotate(30deg);
+            }
+            100%{
+                transform: rotate(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="mouth">
+        <div class="top"></div>
+        <div class="bottom"></div>
+    </div>
+</body>
+</html>

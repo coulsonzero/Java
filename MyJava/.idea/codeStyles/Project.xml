@@ -1,0 +1,16 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <JavaCodeStyleSettings>
+      <option name="SPACES_WITHIN_ANGLE_BRACKETS" value="true" />
+    </JavaCodeStyleSettings>
+    <JetCodeStyleSettings>
+      <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
+    </JetCodeStyleSettings>
+    <codeStyleSettings language="JAVA">
+      <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACES" value="true" />
+    </codeStyleSettings>
+    <codeStyleSettings language="kotlin">
+      <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
+    </codeStyleSettings>
+  </code_scheme>
+</component>
