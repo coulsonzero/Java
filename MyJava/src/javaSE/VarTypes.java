@@ -25,5 +25,8 @@ public class VarTypes {
 
         // boolean
         boolean isMan = true;
+
+        // String
+        String name = "shville";
     }
 }

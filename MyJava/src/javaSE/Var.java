@@ -12,5 +12,7 @@ public class Var {
     public static void main(String[] args) {
         double salary = 12000;   // 变量
         final double PI = 3.14;  // 常量, 只能赋值一次
+
+
     }
 }

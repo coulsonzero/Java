@@ -1,4 +1,4 @@
-package LeetCode.Array;
+package LeeCode.Array;
 
 /**
  * 原地删除排序数组中的重复项，返回新长度

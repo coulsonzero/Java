@@ -1,4 +1,4 @@
-package MyJava.LeeCode.Array;
+package LeeCode.Array;
 
 /**
  * 反转字符串
@@ -6,7 +6,7 @@ package MyJava.LeeCode.Array;
  * output: ["o","l","l","e","h"]
  */
 
-class ReverseCharArray {
+public class ReverseCharArray {
     public void reverseString(char[] s) {
         /**
          *  双指针法(首尾交换)

@@ -1,4 +1,4 @@
-package LeetCode.Array;
+package LeeCode.Array;
 
 /**
  * @author coulson
