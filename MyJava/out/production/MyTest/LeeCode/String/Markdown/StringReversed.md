@@ -17,9 +17,9 @@ while((str=br.readLine())!=null){
 ```java
 import java.io.*;
 public class Main {
-    public static void main(String[] args) throws Exception{
+    public static void main(StringSum[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String str = null;
+        StringSum str = null;
         while((str=br.readLine())!=null){
             StringBuilder sb = new StringBuilder(str);
             System.out.println(sb.reverse());
@@ -34,8 +34,8 @@ public class Main {
 ```java
 import java.util.Scanner;
 public class Main {
-    public static void main(String[] args) {
-        String str = new Scanner(System.in).nextLine();
+    public static void main(StringSum[] args) {
+        StringSum str = new Scanner(System.in).nextLine();
         StringBuilder sb = new StringBuilder(str.toLowerCase());
         System.out.println(sb.reverse());
     }
@@ -52,12 +52,12 @@ public class Main {
 import java.io.*;
 
 public class Main{
-    public static void main(String[] args) throws Exception{
+    public static void main(StringSum[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String str = null;
+        StringSum str = null;
         while((str=br.readLine())!=null){
             //1.
-            String[] s = str.split(" ");
+            StringSum[] s = str.split(" ");
             StringBuilder sb = new StringBuilder();
             //2.
             for (int i = s.length-1; i >0 ; i--) {
