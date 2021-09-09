@@ -37,7 +37,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 public class TwoSum {
-    public static void main(StringSum[] args) {
+    public static void main(LeeCode.A0908.StringSum[] args) {
         int target=10;
         System.out.println(Arrays.toString(twoSum(new int[] {1,2,3,4,5,6}, target))); 
     }

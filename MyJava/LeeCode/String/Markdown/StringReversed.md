@@ -17,9 +17,9 @@ while((str=br.readLine())!=null){
 ```java
 import java.io.*;
 public class Main {
-    public static void main(StringSum[] args) throws Exception{
+    public static void main(LeeCode.A0908.StringSum[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringSum str = null;
+        LeeCode.A0908.StringSum str = null;
         while((str=br.readLine())!=null){
             StringBuilder sb = new StringBuilder(str);
             System.out.println(sb.reverse());
@@ -34,8 +34,8 @@ public class Main {
 ```java
 import java.util.Scanner;
 public class Main {
-    public static void main(StringSum[] args) {
-        StringSum str = new Scanner(System.in).nextLine();
+    public static void main(LeeCode.A0908.StringSum[] args) {
+        LeeCode.A0908.StringSum str = new Scanner(System.in).nextLine();
         StringBuilder sb = new StringBuilder(str.toLowerCase());
         System.out.println(sb.reverse());
     }
@@ -52,12 +52,12 @@ public class Main {
 import java.io.*;
 
 public class Main{
-    public static void main(StringSum[] args) throws Exception{
+    public static void main(LeeCode.A0908.StringSum[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringSum str = null;
+        LeeCode.A0908.StringSum str = null;
         while((str=br.readLine())!=null){
             //1.
-            StringSum[] s = str.split(" ");
+            LeeCode.A0908.StringSum[] s = str.split(" ");
             StringBuilder sb = new StringBuilder();
             //2.
             for (int i = s.length-1; i >0 ; i--) {

@@ -6,8 +6,8 @@
 
 ```java
 class Solution {
-    public StringSum replaceSpace(StringSum s) {
-        StringSum string = s.replace(" ", "%20");
+    public LeeCode.A0908.StringSum replaceSpace(LeeCode.A0908.StringSum s) {
+        LeeCode.A0908.StringSum string = s.replace(" ", "%20");
         return string;
     }
 }
@@ -17,7 +17,7 @@ class Solution {
 ***
 ```java
 class Solution {
-    public StringSum replaceSpace(StringSum s) {
+    public LeeCode.A0908.StringSum replaceSpace(LeeCode.A0908.StringSum s) {
         StringBuilder str = new StringBuilder();
         for(Character c : s.toCharArray())
         {
