@@ -22,29 +22,17 @@ You can find me on [![Twitter][1.2]][1]
 
 #### 代码块
 ```java
-package JavaCode;
-public class MyClass {
+public class Main {
     public static void main(String[] args) {
-        ...
+        System.out.println("Hello World!");
     }
 }
 ```
-#### 图片 <img src="https://github.com/coulsonzero/JavaCode/blob/main/images/ArrayFind.gif" width="300px">
-![](url)
-![ArrayInsert](https://github.com/coulsonzero/JavaCode/blob/main/images/ArrayInsert.gif)
 
 
 
 
-#### 项目列表
-1. 有序
-* 无序
-* [x] 复选框1
-* [ ] 复选框2
 
-*斜体*
-
-**加粗**
 
 
 
