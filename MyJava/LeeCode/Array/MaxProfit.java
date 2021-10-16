@@ -1,5 +1,3 @@
-package LeeCode.Array;
-
 /**
  * @author coulson
  * @version 2021-06-29 10:17
