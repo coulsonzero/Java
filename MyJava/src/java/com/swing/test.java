@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.concurrent.Flow;
 
-public class Main {
+public class test {
     public static void main(String[] args) {
         //1.新建窗口
         JFrame jf = new JFrame("窗口测试");
